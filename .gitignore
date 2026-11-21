@@ -8,3 +8,7 @@ __pycache__/
 htmlcov/
 reportes/
 .env
+
+# Reportes de cobertura en formato JSON
+
+
