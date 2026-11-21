@@ -6,7 +6,7 @@ import pytest
 from app import create_app
 from app.config import Config
 
-DATOS = /"datos" / "tareas_ejemplo.json"
+DATOS = Path(__file__).parent / "datos" / "tareas_ejemplo.json"
 
 
 @pytest.fixture
